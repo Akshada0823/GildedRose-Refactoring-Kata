@@ -43,7 +43,7 @@ class GildedRose(val items: List<Item>) {
 
     /**
      * Aged Brie increases in quality the older it gets.
-     * Quality is capped at 50.
+     * Quality is capped at 50 .
      */
     private fun updateAgedBrie(item: Item) {
         increaseQuality(item)
